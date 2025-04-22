@@ -1,0 +1,46 @@
+<div class="container-fluid vh-100 d-flex align-items-center justify-content-center p-0">
+    <div class="row w-100 h-100">
+      
+        <!-- Login Formulario -->
+        <div class="col-md-6 col-sm-8 col-12 d-flex flex-column justify-content-center p-5 bg-black bg-bubble">
+
+            <div class="rounded bg-purple  p-4 shadow-lg">
+
+                <h2 class="text-center mb-4 text-white">Iniciar Sesión</h2> 
+
+                <form id="loginForm" novalidate>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label text-white">Correo electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="ejemplo@liderly.com" required>
+                        <div class="invalid-feedback">Por favor ingresa un correo válido.</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="password" class="form-label text-white">Contraseña</label>
+                        <input type="password" class="form-control" id="password" placeholder="******" required>
+                        <div class="invalid-feedback">La contraseña debe tener 6 caracteres.</div>
+                    </div>
+
+                    <button type="submit" class="btn btn-success w-100 my-2">Ingresar</button>
+                    <button type="button" class="btn btn-danger w-100 my-2" onclick="simulateRedirect()">Omitir login</button>
+
+                </form>
+
+            </div>
+
+        </div>
+    
+        <!-- Imagen brujin -->
+        <div class="col-md-6 col-sm-4 col-12 d-flex align-items-center justify-content-center flex-column bg-rose">
+            
+            <div class="rounded-circle p-3 bg-purple">
+                <img src="assets/brujo-logo.png" alt="Logo" class="img-fluid">
+            </div>
+
+            <h1 class="text-center mt-4 text-white">Brujito Movies</h1>
+
+        </div>
+  
+    </div>
+</div>
