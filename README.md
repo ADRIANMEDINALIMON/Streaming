@@ -1,27 +1,48 @@
-# Brujito
+# Streaming-AML
+Streaming service
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.18.
+# TITULO: 
+Brujito movies
 
-## Development server
+# DESCRIPTION: 
+Plataforma de streaming
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#  CAPTURAS DE PANTALLA DEL PROYECTO
+![alt text](assets/readme/image1.png)
+![alt text](assets/readme/image2.png)
+![alt text](assets/readme/image3.png)
 
-## Code scaffolding
+# MOCKUP
+![alt text](assets/readme/home.png)
+![alt text](assets/readme/login.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+# DESCARGA EL REPO
+1. Entra al repo https://github.com/ADRIANMEDINALIMON/Streaming-AML
+2. clic en el botón verde Code
+3. Luego haz clic en Download ZIP
+4. Extrae el archivo ZIP
+5. Dentro de la carpeta descomprimida, busca el archivo llamado index.html.
+6. Abrelo con live server o lo puedes deslizar a tu navegador para abrirlo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# DESCRIPCION
+Inicie haciendo el MOCKUP para hacerme una idea
+Hice el repo
+Inicie con index.html css y js 
+El navbar junto con el componente de cards, me base en bootstrap para el responsive y css principalmente 
+Harcodie las cards y despues las hice dinamicas para consumir info de un json con texto he img, le anexe un carousel para que no se vea tan solo
+Despues hice el login y meti validaciones para ingresar, pero no obvio no autentifica credenciales solo simula
+Meti las funciones y enrutado para que tenga un flujo logico
 
-## Running unit tests
+# PROBLEMAS 
+En las cards tuve problemas con el bloques dinamicos de HTML y el json, al final pude resolver 
+Tambien con las validacion de los inputs del login para validar el email, pero al final todo ok
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Que hice bien...
+El Diseño me gusto
 
-## Running end-to-end tests
+# Que no salio bien...
+Las cards y creo que cometi malas practicas en mi codigo 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+# Que puedo hacer diferente...
+Mejorar mi codigo, siento que me falto organizar mejor, hacer dinamico algunos bloques de codigo y el responsive
