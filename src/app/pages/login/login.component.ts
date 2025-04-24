@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
-import { Router } from '@angular/router';
+import { Router, RouterLinkWithHref } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
+  imports: [CommonModule, ReactiveFormsModule, RouterLinkWithHref],
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss'],
 })
@@ -37,6 +37,6 @@ export class LoginComponent {
   }
 
   simulateRedirect(): void {
-    this.router.navigate(['/']); // asegúrate de tener ruta /home
+    this.router.navigate(['/']);
   }
 }

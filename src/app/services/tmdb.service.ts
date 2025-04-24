@@ -7,7 +7,7 @@ import { environment } from '../../environments/environment';
   providedIn: 'root'
 })
 export class TmdbService {
-  private apiKey = environment.API_KEY // reemplaza con tu key
+  private apiKey = environment.API_KEY;
   private apiUrl = 'https://api.themoviedb.org/3';
 
   constructor(private http: HttpClient) {}
