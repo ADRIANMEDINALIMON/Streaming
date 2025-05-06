@@ -7,14 +7,14 @@ Brujito movies
 # DESCRIPTION: 
 Plataforma de streaming
 
-#  CAPTURAS DE PANTALLA DEL PROYECTO
-![alt text](assets/readme/image1.png)
-![alt text](assets/readme/image2.png)
-![alt text](assets/readme/image3.png)
+# CAPTURAS DE PANTALLA DEL PROYECTO
+![Captura 1](./src/assets/readme/image1.png)
+![Captura 2](./src/assets/readme/image2.png)
+![Captura 3](./src/assets/readme/image3.png)
 
 # MOCKUP
-![alt text](assets/readme/home.png)
-![alt text](assets/readme/login.png)
+![Vista Home](./src/assets/readme/home.png)
+![Vista Login](./src/assets/readme/login.png)
 
 
 # DESCARGA EL REPO
@@ -34,15 +34,20 @@ Harcodie las cards y despues las hice dinamicas para consumir info de un json co
 Despues hice el login y meti validaciones para ingresar, pero no obvio no autentifica credenciales solo simula
 Meti las funciones y enrutado para que tenga un flujo logico
 
+# Code Coverage y reporte de testing
+
+![Code Coverage](./src/assets/readme/coverage.png)
+![testing](./src/assets/readme/testing.png)
+
 # PROBLEMAS 
 En las cards tuve problemas con el bloques dinamicos de HTML y el json, al final pude resolver 
 Tambien con las validacion de los inputs del login para validar el email, pero al final todo ok
 
 # Que hice bien...
-El Diseño me gusto
+Trate de superar el coverage mas del 50%
 
 # Que no salio bien...
-Las cards y creo que cometi malas practicas en mi codigo 
+Muchos errores que tuve que ir corrigiendo 
 
 # Que puedo hacer diferente...
 Mejorar mi codigo, siento que me falto organizar mejor, hacer dinamico algunos bloques de codigo y el responsive

@@ -1,28 +1,34 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+export interface Ruta {
+  id: string;
+  nombre: string;
+}
 
 @Component({
   selector: 'app-header',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  constructor() {
-    console.log('HeaderComponent cargado');
-  }
+
   @Output() routeChange = new EventEmitter<string>();
 
-  rutas = [
-    { id: 'peliculas', nombre: 'Películas' },
-    { id: 'series', nombre: 'Series' },
-    { id: 'favoritos', nombre: 'Favoritos' },
-    { id: 'generos', nombre: 'Géneros' }
+
+  readonly rutas: Ruta[] = [
+    { id: 'peliculas',   nombre: 'Películas' },
+    { id: 'series',      nombre: 'Series'    },
+    { id: 'favoritos',   nombre: 'Favoritos' },
+    { id: 'generos',     nombre: 'Géneros'   },
+    { id: 'cerrar-sesion', nombre: 'Cerrar Sesión' }
   ];
 
-  navigate(route: string) {
+  constructor() {}
+
+  navigate(route: string): void {
     if (route === 'cerrar-sesion') {
       window.location.href = '/';
     } else {

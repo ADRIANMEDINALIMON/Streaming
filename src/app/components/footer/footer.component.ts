@@ -8,7 +8,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss'
 })
-export class HeaderComponent {
+export class FooterComponent {
   @Output() routeChange = new EventEmitter<string>();
 
   rutas = [
